@@ -1,7 +1,7 @@
 ﻿@page
 @model ResetAuthenticatorModel
 @{
-    ViewData["Title"] = "Reset authenticator key";
+    ViewData["Title"] = "Resetar chave de autenticação";
     ViewData["ActivePage"] = ManageNavPages.TwoFactorAuthentication;
 }
 
@@ -14,11 +14,11 @@
     </p>
     <p>
         Este processo desabilitará a autenticação em duas etapas até você verificar seu app de autenticação!
-        If you do not complete your authenticator app configuration you may lose access to your account.
+        Se você não concluir a configuração de seu app de autenticação, você pode perder acesso a sua conta!
     </p>
 </div>
 <div>
     <form id="reset-authenticator-form" method="post" class="form-group">
-        <button id="reset-authenticator-button" class="btn btn-danger" type="submit">Reset authenticator key</button>
+        <button id="reset-authenticator-button" class="btn btn-danger" type="submit">Resetar chave de autenticação</button>
     </form>
 </div>

@@ -2,7 +2,7 @@
 @model LoginModel
 
 @{
-    ViewData["Title"] = "Log in";
+    ViewData["Title"] = "Logar";
 }
 
 <h1>@ViewData["Title"]</h1>
@@ -36,10 +36,10 @@
                 </div>
                 <div class="form-group">
                     <p>
-                        <a id="forgot-password" asp-page="./ForgotPassword">Forgot your password?</a>
+                        <a id="forgot-password" asp-page="./ForgotPassword">Esqueceu sua senha?</a>
                     </p>
                     <p>
-                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Register as a new user</a>
+                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Registrar um novo usuário</a>
                     </p>
                 </div>
             </form>
@@ -47,15 +47,15 @@
     </div>
     <div class="col-md-6 col-md-offset-2">
         <section>
-            <h4>Use another service to log in.</h4>
+            <h4>Usar outro serviço para logar.</h4>
             <hr />
             @{
                 if ((Model.ExternalLogins?.Count ?? 0) == 0)
                 {
                     <div>
                         <p>
-                            There are no external authentication services configured. See <a href="https://go.microsoft.com/fwlink/?LinkID=532715">this article</a>
-                            for details on setting up this ASP.NET application to support logging in via external services.
+                            Não existem serviços de autenticação externos configurados. Acesse <a href="https://go.microsoft.com/fwlink/?LinkID=532715">Este artigo</a>
+                            para detalhes para detalhes de validação para suporte ao login via serviços externos.
                         </p>
                     </div>
                 }

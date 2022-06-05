@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,8 @@ namespace Velo.Controllers
             _logger = logger;
         }
 
+
+        [Authorize]
         public IActionResult Index()
         {
             return View();
