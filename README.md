@@ -88,4 +88,4 @@ Veja todo o material produzido para este desafio nos seguintes links:
 
 ## Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/rjsilvaoficial/Velo/blob/master/LICENSE) para mais detalhes.
