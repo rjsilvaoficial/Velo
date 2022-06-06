@@ -20,8 +20,13 @@ namespace Velo.Controllers
         }
 
 
-        [Authorize]
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        [Authorize]
+        public IActionResult Mapa()
         {
             return View();
         }

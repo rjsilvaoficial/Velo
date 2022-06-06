@@ -196,3 +196,4 @@ C:\Users\robso\source\repos\Velo\Velo\obj\Debug\netcoreapp3.1\Razor\Areas\Identi
 C:\Users\robso\source\repos\Velo\Velo\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\robso\source\repos\Velo\Velo\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Facebook.dll
 C:\Users\robso\source\repos\Velo\Velo\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\robso\source\repos\Velo\Velo\obj\Debug\netcoreapp3.1\Razor\Views\Home\Mapa.cshtml.g.cs

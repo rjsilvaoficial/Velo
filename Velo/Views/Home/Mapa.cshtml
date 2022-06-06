@@ -1,0 +1,275 @@
+﻿
+@{
+    Layout = "_Layout";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">Mapa de pontos de apoio</h1>
+</div>
+<br />
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js" integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw==" crossorigin=""></script>
+
+</head>
+<body>
+    <div id="mapDiv" style="width: 95%; height: 450px"></div>
+    <script>
+
+        // latitude e longitude
+        var lat = -23.55;
+        var lon = -46.63;
+        // inicializa o mapa
+        map = L.map('mapDiv').setView([lat, lon], 13);
+
+        // define os recursos para exibição
+        L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: 'Map data &copy; <a href="https://github.com/rjsilvaoficial/Velo">Robson Silva</a>',
+            maxZoom: 18,
+        }).addTo(map);
+
+        var geojsonFeature = {
+            "type": "FeatureCollection",
+            "features": [{
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Bike carlos",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.63023, -23.5489041]
+                },
+                "id": "ccf26055-4f90-40e2-aeed-bb04f839f171"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Bicicletária cammis bike",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6301448, -23.5491842]
+                },
+                "id": "1a355af7-6881-41c3-b32f-600b93bb91a6"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Casa da Bicicleta",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6322528, -23.541626]
+                },
+                "id": "557d0be7-130f-4f8f-89d3-4cf193f41fc2"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Ceará Bike",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6471502, -23.5445987]
+                },
+                "id": "0c9c99e3-b4a3-4ebf-ad79-7c75cece2d5d"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Centro Bike Sp Bicicletaria",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.642008, -23.540451]
+                },
+                "id": "153b8a9e-737d-437b-98c0-f43765ee2d29"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Bicicletaria Vitória",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6371207, -23.5367093]
+                },
+                "id": "fccbec29-9013-4dcb-a4d9-8c9766fb98d9"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Casa de Bicicletas Alberto",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6417796, -23.5394426]
+                },
+                "id": "0dbf011e-1d62-4607-a0ed-8b0fad75ca91"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "BIKE BICICLETARIA DO LEO - CONSERTO BICICLETAS (MTBBIKE)",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6622768, -23.5363674]
+                },
+                "id": "496ab87c-17b0-4fec-964f-501db393d5ac"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Ander Bike",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.647926, -23.5421803]
+                },
+                "id": "e1da992b-2e2f-42f3-9695-96822da4c7ee"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Ciclobell",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6430446, -23.5556872]
+                },
+                "id": "8bb440d9-6bd9-4789-8400-7ff3032797b2"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Academia Smart Fit - Anhangabaú",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6363285, -23.5457489]
+                },
+                "id": "a99063b7-bbee-4048-9e36-d14812346e20"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Bluefit",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6423193, -23.5414129]
+                },
+                "id": "f27b5a80-5d3a-4b11-a991-fd16ad45017d"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Studio Velocity - Bike Indoor Frei Caneca",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6525679, -23.5542142]
+                },
+                "id": "e3b43fa5-4852-42e6-ba27-e29835aad40e"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Complexo #9 - Associação GIBI THAI",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6461131, -23.5521589]
+                },
+                "id": "9f0d1e75-ec1b-4a8e-b30e-c318237f550c"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "URB FITNESS",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6491132, -23.5617738]
+                },
+                "id": "0ebaa8d1-cac1-4d96-8c6e-1dbd5b1d54a3"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Musas Academia só para Mulheres",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6488853, -23.5460321]
+                },
+                "id": "34868c4c-299e-4fff-8d5f-a4fab3a9bf30"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "SP\/UP Academia",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6464684, -23.5639153]
+                },
+                "id": "17f3f6e3-4d31-42f1-8222-d72c1203c6ae"
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "shape": "Marker",
+                    "name": "Bluefit",
+                    "category": "default"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-46.6447925, -23.5514653]
+                },
+                "id": "879b7bb2-08ce-4f87-9db9-60f0aeff3d4d"
+            }]
+        };
+
+
+
+
+        /*L.geoJSON(geojsonFeature).addTo(map);*/
+
+        L.geoJSON(geojsonFeature, {
+            onEachFeature: function (feature, layer) {
+                // does this feature have a property named popupContent?
+                layer.bindPopup(feature.properties.name);
+
+
+            }
+        }).addTo(map);
+
+
+    </script>
+</body>
+</html>
