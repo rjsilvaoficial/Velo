@@ -1,7 +1,7 @@
 <p align="center">
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/gpd38/desafioShaweeFairFax">
-<img alt="GitHub" src="https://img.shields.io/github/license/gpd38/desafioShaweeFairFax">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gpd38/desafioShaweeFairFax?color=red">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/rjsilvaoficial/Velo">
+<img alt="GitHub" src="https://img.shields.io/github/license/rjsilvaoficial/Velo">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/rjsilvaoficial/Velo?color=red">
 </p>
 
 # Hackathon Fair Fax 
@@ -71,11 +71,11 @@ Veja todo o material produzido para este desafio nos seguintes links:
 
 <table>
 <tr>
-    <td><img alt="Foto da Ellen" src="https://github.com/gpd38/desafioShaweeFairFax/raw/main/img/ellencamilacardias.png" /><br>Ellen Camila</td>
-    <td><img alt="Foto do Gustavo Dias" src="https://github.com/gpd38/desafioShaweeFairFax/raw/main/img/gustavodias.png" /><br>Gustavo Dias</td>
-    <td><img alt="Foto do Gustavo Pascoal" src="https://github.com/gpd38/desafioShaweeFairFax/raw/main/img/gustavopascoal.png" /><br>Gustavo Pascoal</td>
-    <td><img alt="Foto do Leandro" src="https://github.com/gpd38/desafioShaweeFairFax/raw/main/img/leandromachadocosta.png" /><br>Leandro Machado</td>
-    <td><img alt="Foto do Robson" src="https://github.com/gpd38/desafioShaweeFairFax/raw/main/img/robsonsilva.png" /><br>Robson Silva</td>
+    <td><img alt="Foto da Ellen" src="https://media-exp2.licdn.com/dms/image/C4D03AQEBFhB2V9s2UQ/profile-displayphoto-shrink_800_800/0/1648910825142?e=1660780800&v=beta&t=b7AS9OS0XbyEZTKoch5tD_Epe4Va0Qln70YkAvTPXVA" /><br>Ellen Camila</td>
+    <td><img alt="Foto do Gustavo Dias" src="https://media-exp2.licdn.com/dms/image/C4E03AQHTRpKKU1Nptg/profile-displayphoto-shrink_800_800/0/1596412740803?e=1660780800&v=beta&t=LZww1iu3wZsVm0-1RKA84o8eHu-wt78XI06BYWga90s" /><br>Gustavo Dias</td>
+    <td><img alt="Foto do Gustavo Pascoal" src="https://media-exp2.licdn.com/dms/image/C4D03AQHt18H8VtjWRg/profile-displayphoto-shrink_800_800/0/1647103668303?e=1660780800&v=beta&t=kjFbv6BkWqq2oX5l3V51lherMQsltGCTWx5rec4g2AM" /><br>Gustavo Pascoal</td>
+    <td><img alt="Foto do Leandro" src="https://media-exp2.licdn.com/dms/image/C4E03AQEXy4LFoxQHnw/profile-displayphoto-shrink_800_800/0/1619619355735?e=1660780800&v=beta&t=IP8QfsKeb_vJETJtgM95pm6Rs_XY4umI4IEy7BAqEdA" /><br>Leandro Machado</td>
+    <td><img alt="Foto do Robson" src="https://media-exp2.licdn.com/dms/image/C4D03AQH3qEvrIuxzKQ/profile-displayphoto-shrink_800_800/0/1627837519507?e=1660780800&v=beta&t=2UYJ2YrbAvIQ9BSknbxW2FWeQgNt4t6SDteAUWhWt44" /><br>Robson Silva</td>
   </tr>
   <tr>
     <td><a href="https://www.linkedin.com/in/ellencamilacardias/" target="_blank">Linkedin</a></td>
